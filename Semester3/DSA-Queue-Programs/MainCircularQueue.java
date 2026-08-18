@@ -1,12 +1,12 @@
 import java.util.*;
 
-class circeq{
+class circleq{
     int cq[];
     int max;
     int f ;
     int r;
    
-    circeq (int m){
+    circleq (int m){
         max = m;
         f = 0;
         r=-1;
@@ -87,7 +87,7 @@ public class MainCircularQueue{
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the size of the circular queue: ");
         int m = sc.nextInt();
-        circeq cq = new circeq(m);
+        circleq cq = new circleq(m);
         int choice;
         do{
             System.out.println("\n----- CIRCULAR QUEUE MENU -----");
