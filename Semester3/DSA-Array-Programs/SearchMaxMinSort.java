@@ -13,11 +13,11 @@ public class SearchMaxMinSort{
 	boolean found = false;
 	int target = s.nextInt();
 	for (int i = 0; i < a.length; i++){
-            if (a[i] == target){
-                System.out.println("Element found at position "+i+" starting from 0.");
-		found = true;
-            }
+        if (a[i] == target){
+            System.out.println("Element found at position "+i+" starting from 0.");
+			found = true;
         }
+    }
 	if (found == false){
 	    System.out.println("Not found.");
 	}
