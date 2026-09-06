@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class AreaOfCircle{
-	public static void main(String[] args) {
+	public static void main(String[] args){
 		Scanner s = new Scanner(System.in);
 		System.out.print("Input radius of circle: ");
 		float r = s.nextFloat();
@@ -9,5 +9,3 @@ public class AreaOfCircle{
 		System.out.println("Area is: "+area+"square units.");
 	}
 }
-
-
